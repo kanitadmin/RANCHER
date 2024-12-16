@@ -4,6 +4,7 @@ services:
   rancher:
     image: rancher/rancher:latest
     restart: unless-stopped
+    privileged: true
     ports:
       - '443:443'
       - '80:80'
