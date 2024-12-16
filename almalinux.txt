@@ -1,0 +1,3 @@
+sudo modprobe iptable_filter
+sudo modprobe iptable_nat
+sudo modprobe iptable_mangle
